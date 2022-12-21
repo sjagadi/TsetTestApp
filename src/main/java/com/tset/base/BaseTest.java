@@ -14,6 +14,7 @@ public class BaseTest {
     public static void initialization() {
         if(properties.getProperty("browser").equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", properties.getProperty("chromeDriverPath"));
+//            System.setProperty("webdriver.chrome.driver", properties.getProperty("chromeDriverPathForWindows"));
             driver = new ChromeDriver();
         } else if (properties.getProperty("browser").equalsIgnoreCase("chrome")) {
             driver = new FirefoxDriver();

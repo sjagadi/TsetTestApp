@@ -23,37 +23,37 @@ Implement Test Case against provided Vue app
    5. Storage surcharge: 0.3
 
 # Testflow
-1. Change Base Price value to 5
+**1. Change Base Price value to 5
    1. Hover row
    2. Click on ‘Pencil’ icon
    3. Click on value input (right)
    4. Enter new value
    5. Click on ‘Check’ icon
    6. Verify Expected Results A.
-2. Add all price components from Testdata
+**2. Add all price components from Testdata
    1. Click on label input (left)
    2. Enter new label
    3. Click on value input (right)
    4. Enter new value
    5. Click on ‘Check’ icon
    6. Verify Expected Results B.
-3. Remove price component: Internal surcharge
+**3. Remove price component: Internal surcharge
    1. Hover row
    2. Click on ‘Trash’ icon
    3. Verify Expected Results A.
-4. Edit price component: Storage surcharge
+**4. Edit price component: Storage surcharge
    1. Hover row
    2. Click on ‘Pencil’ icon
    3. Enter new label: ‘T’
    4. Click on ‘Check’ icon
    5. Verify Expected Results C.
-5. Edit price component: Scrap surcharge
+**5. Edit price component: Scrap surcharge
    1. Hover row
    2. Click on ‘Pencil’ icon
    3. Enter new value: -2.15
    4. Click on ‘Check’ icon
    5. Verify Expected Results D.
-6. Edit price component: Alloy surcharge
+**6. Edit price component: Alloy surcharge
    1. Hover row
    2. Click on ‘Pencil’ icon
    3. Enter new value: 1.79
@@ -62,17 +62,17 @@ Implement Test Case against provided Vue app
 
 # Expected Results
 
-A. Displayed sum shows correct sum
+**A. Displayed sum shows correct sum
 
-B. Displayed values of price components are rounded correctly
+**B. **Displayed values of price components are rounded correctly
    1. Values always show 1 or 2 decimal digits
    2. If value has no decimal digits, show a 0 as decimal digit
    3. If value has more than 2 decimal digits, round to 2 decimal digits
 
-C. Label input validation
+**C. Label input validation
    1. Labels have to contain at least 2 characters
    2. If input is invalid, restore last valid state
 
-D. Value input validation
+**D. Value input validation
    1. Values cannot be negative
    2. If input is invalid, restore last valid state

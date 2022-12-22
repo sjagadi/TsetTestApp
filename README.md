@@ -61,11 +61,12 @@ Implement Test Case against provided Vue app
    5. Verify Expected Results A.
 
 # Expected Results
-A. Displayed sum shows correct sum
-B. Displayed values of price components are rounded correctly
-   a. Values always show 1 or 2 decimal digits
-   b. If value has no decimal digits, show a 0 as decimal digit
-   c. If value has more than 2 decimal digits, round to 2 decimal digits
+
+A) Displayed sum shows correct sum
+B) Displayed values of price components are rounded correctly
+   1. Values always show 1 or 2 decimal digits
+   2. If value has no decimal digits, show a 0 as decimal digit
+   3. If value has more than 2 decimal digits, round to 2 decimal digits
 Label input validation
 Labels have to contain at least 2 characters
 If input is invalid, restore last valid state

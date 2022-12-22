@@ -70,9 +70,9 @@ B. Displayed values of price components are rounded correctly
    3. If value has more than 2 decimal digits, round to 2 decimal digits
 
 C. Label input validation
-   a. Labels have to contain at least 2 characters
-   b. If input is invalid, restore last valid state
+   1. Labels have to contain at least 2 characters
+   2. If input is invalid, restore last valid state
 
 D. Value input validation
-   a. Values cannot be negative
-   b. If input is invalid, restore last valid state
+   1. Values cannot be negative
+   2. If input is invalid, restore last valid state

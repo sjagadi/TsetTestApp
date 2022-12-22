@@ -74,15 +74,11 @@ Values cannot be negative
 If input is invalid, restore last valid state
 
 
-const customIndex = [
-  'z',
-  'y',
-  'x',
-  'w',
-  ...
-]
-
-<AlphabetList
-  ...
-  index={customIndex}
-/>
+<style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style>
+A. Displayed sum shows correct sum
+B. Displayed values of price components are rounded correctly
+   a. Values always show 1 or 2 decimal digits
+   b. If value has no decimal digits, show a 0 as decimal digit
+   c. If value has more than 2 decimal digits, round to 2 decimal digits

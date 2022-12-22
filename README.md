@@ -83,7 +83,7 @@ $ git clone git@github.com:sjagadi/tset-tester-challenge.git
 ### Setup and run the test app
 ``` bash
 # Go to the repo
-$ cd tset-app
+$ cd tset-tester-challenge
 
 # Intall yarn
 $ npm install --global yarn

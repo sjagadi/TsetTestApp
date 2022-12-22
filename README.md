@@ -1,6 +1,3 @@
-Assignment: https://docs.google.com/document/d/1iiQmhuTJtik5pc3MgGsUqMA2HdjDoQ8sZetK_EwxXu0/edit
-Application: https://github.com/tsetweb/tset-tester-challenge
-
 # Tset Assignment using Selenium, Java and page object model
 
 # Tester Challenge
@@ -76,3 +73,7 @@ C. Label input validation
 D. Value input validation
    1. Values cannot be negative
    2. If input is invalid, restore last valid state
+
+
+# Application: 
+Follow the instruction to install the application: https://github.com/sjagadi/tset-tester-challenge

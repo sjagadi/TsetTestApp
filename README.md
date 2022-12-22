@@ -15,12 +15,12 @@ Implement Test Case against provided Vue app
 
 # Testcase
 # Testdata
-* Price components
-  * Alloy surcharge: 2.15
-  * Scrap surcharge: 3.14
-  * Internal surcharge: 0.7658
-  * External surcharge: 1
-  * Storage surcharge: 0.3
+1 Price components
+  a Alloy surcharge: 2.15
+  b Scrap surcharge: 3.14
+  c Internal surcharge: 0.7658
+  d External surcharge: 1
+  e Storage surcharge: 0.3
 Testflow
 Change Base Price value to 5
 Hover row

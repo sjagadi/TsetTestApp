@@ -63,6 +63,7 @@ Implement Test Case against provided Vue app
 # Expected Results
 
 A) Displayed sum shows correct sum
+
 B) Displayed values of price components are rounded correctly
    1. Values always show 1 or 2 decimal digits
    2. If value has no decimal digits, show a 0 as decimal digit

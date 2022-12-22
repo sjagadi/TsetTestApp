@@ -16,9 +16,9 @@ Implement Test Case against provided Vue app
 # Testcase
 # Testdata
 1. Price components
-  1. Alloy surcharge: 2.15
-  2. Scrap surcharge: 3.14
-  3. Internal surcharge: 0.7658
-  4. External surcharge: 1
-  5. Storage surcharge: 0.3
+   1. Alloy surcharge: 2.15
+   2. Scrap surcharge: 3.14
+   3. Internal surcharge: 0.7658
+   4. External surcharge: 1
+   5. Storage surcharge: 0.3
 

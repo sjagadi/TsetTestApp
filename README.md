@@ -1,4 +1,4 @@
-# Tset Assignment using Selenium, Java and page object model
+# Selenium Assignment
 
 # Tester Challenge
 

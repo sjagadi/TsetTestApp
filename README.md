@@ -22,3 +22,53 @@ Implement Test Case against provided Vue app
    4. External surcharge: 1
    5. Storage surcharge: 0.3
 
+# Testflow
+1. Change Base Price value to 5
+   1. Hover row
+   2. Click on ‘Pencil’ icon
+   3. Click on value input (right)
+   4. Enter new value
+   5. Click on ‘Check’ icon
+   6. Verify Expected Results A.
+2. Add all price components from Testdata
+   1. Click on label input (left)
+   2. Enter new label
+   3. Click on value input (right)
+   4. Enter new value
+   5. Click on ‘Check’ icon
+   6. Verify Expected Results B.
+Remove price component: Internal surcharge
+Hover row
+Click on ‘Trash’ icon
+Verify Expected Results A.
+Edit price component: Storage surcharge
+Hover row
+Click on ‘Pencil’ icon
+Enter new label: ‘T’
+Click on ‘Check’ icon
+Verify Expected Results C.
+Edit price component: Scrap surcharge
+Hover row
+Click on ‘Pencil’ icon
+Enter new value: -2.15
+Click on ‘Check’ icon
+Verify Expected Results D.
+Edit price component: Alloy surcharge
+Hover row
+Click on ‘Pencil’ icon
+Enter new value: 1.79
+Click on ‘Check’ icon
+Verify Expected Results A.
+
+Expected Results
+Displayed sum shows correct sum
+Displayed values of price components are rounded correctly
+Values always show 1 or 2 decimal digits
+If value has no decimal digits, show a 0 as decimal digit
+If value has more than 2 decimal digits, round to 2 decimal digits
+Label input validation
+Labels have to contain at least 2 characters
+If input is invalid, restore last valid state
+Value input validation
+Values cannot be negative
+If input is invalid, restore last valid state

@@ -72,3 +72,17 @@ If input is invalid, restore last valid state
 Value input validation
 Values cannot be negative
 If input is invalid, restore last valid state
+
+
+const customIndex = [
+  'z',
+  'y',
+  'x',
+  'w',
+  ...
+]
+
+<AlphabetList
+  ...
+  index={customIndex}
+/>

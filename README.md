@@ -2,13 +2,12 @@
 
 # Tester Challenge
 
-Background:
-In order to calculate the total cost of a part it is necessary to understand the pricing structure of the underlying material. How a material is priced depends on negotiations with suppliers, and is broken down into multiple “price components”. The amount of these components varies, and the sum of all components will define the final price.
+**Background:** In order to calculate the total cost of a part it is necessary to understand the pricing structure of the underlying material. How a material is priced depends on negotiations with suppliers, and is broken down into multiple “price components”. The amount of these components varies, and the sum of all components will define the final price.
 In order to cover this use case, we need a form that allows adding new /removing existing price component fields, where the sum of the price component values is displayed as a total price.
 
-Goals:
-Setup Selenium test framework, using Java
-Implement Test Case against provided Vue app
+**Goals:**
+1. Setup Selenium test framework, using Java
+2. Implement Test Case against provided Vue app
 
 # Testcase
 # Testdata
@@ -75,5 +74,26 @@ D. Value input validation
    2. If input is invalid, restore last valid state
 
 
-# Application: 
-Follow the instruction to install the application: https://github.com/sjagadi/tset-tester-challenge
+# Application
+### Install node
+https://nodejs.org/en/
+
+### Clone the repo
+```
+$ git clone git@github.com:sjagadi/tset-tester-challenge.git
+```
+### Setup and run the test app
+
+``` bash
+# go to the repo
+$ cd tset-app
+
+# intall yarn
+$ npm install --global yarn
+
+# install dependencies
+$ yarn install --frozen-lockfile
+
+# run the test app (http://localhost:3000)
+$ yarn dev
+```

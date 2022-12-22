@@ -74,26 +74,24 @@ D. Value input validation
    2. If input is invalid, restore last valid state
 
 
-# Application
+# Application installation
 ### Install node
 https://nodejs.org/en/
-
-### Clone the repo
+### Clone the [repo](https://github.com/sjagadi/tset-tester-challenge.git)
 ```
 $ git clone git@github.com:sjagadi/tset-tester-challenge.git
 ```
 ### Setup and run the test app
-
 ``` bash
-# go to the repo
+# Go to the repo
 $ cd tset-app
 
-# intall yarn
+# Intall yarn
 $ npm install --global yarn
 
-# install dependencies
+# Install dependencies
 $ yarn install --frozen-lockfile
 
-# run the test app (http://localhost:3000)
+# Run the test app (http://localhost:3000)
 $ yarn dev
 ```

@@ -65,14 +65,14 @@ Implement Test Case against provided Vue app
 A. Displayed sum shows correct sum
 
 B. Displayed values of price components are rounded correctly
-   1. Values always show 1 or 2 decimal digits
-   2. If value has no decimal digits, show a 0 as decimal digit
-   3. If value has more than 2 decimal digits, round to 2 decimal digits
+      1. Values always show 1 or 2 decimal digits
+      2. If value has no decimal digits, show a 0 as decimal digit
+      3. If value has more than 2 decimal digits, round to 2 decimal digits
 
 C. Label input validation
-   1. Labels have to contain at least 2 characters
-   2. If input is invalid, restore last valid state
+      1. Labels have to contain at least 2 characters
+      2. If input is invalid, restore last valid state
 
 D. Value input validation
-   1. Values cannot be negative
-   2. If input is invalid, restore last valid state
+      1. Values cannot be negative
+      2. If input is invalid, restore last valid state
